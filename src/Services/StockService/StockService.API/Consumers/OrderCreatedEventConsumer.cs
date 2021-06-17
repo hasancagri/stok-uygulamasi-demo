@@ -3,7 +3,6 @@ using MassTransit;
 using MediatR;
 using StockService.Application.Features.Commands.StockCommands.ChangeStockQuantity;
 using StockService.Application.Features.Queries.StockQueries.GetStockByProductId;
-using System.Diagnostics;
 using System.Threading.Tasks;
 
 namespace StockService.API.Consumers
